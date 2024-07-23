@@ -1,0 +1,49 @@
+.left>a>img{
+    position: absolute;
+    top: 5vh;
+    right: 20vw;
+    width: 10vw;
+}
+.container{
+    width: 32vw;
+    height: 90vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:column ;
+    position: relative;
+    left: 35%;
+    top: 15%;
+    background:linear-gradient(to bottom,rgba(0, 0, 0, 0.801),rgba(0, 0, 0, 0)); 
+    border-radius:5px;   
+    /* box-shadow: 5px 15px 100px 20px rgba(0, 0, 0, 0) inset; */
+}
+.text>span{
+    font-family: sans-serif;
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 8vh;
+    left: 4.8vw;
+}
+.in{
+    position: relative;
+    left:4.3vw;
+    top: 11vh;
+}
+.in>span{
+    color: white;
+    position: relative;
+    top: 30vh;
+}
+input{
+    width: 22vw;
+    margin: 10px;
+}
+.bttn>input{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 6vh;
+    background-color: rgba(255, 0, 0, 0.856);
+    font-weight: 700;
+}
