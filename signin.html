@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,9 +28,9 @@
                     <span>Sign In</span>
                 </div>
                 <div class="in">
-                    <form action="">
-                        <input type="text" placeholder="Email or mobile number" required>
-                        <input type="password" placeholder="Password" required>
+                    <form name="forms" onsubmit="return validateform()">
+                        <input type="text" placeholder="Email or mobile number" id="email">
+                        <input type="password" placeholder="Password" id="pass" >
                         <div class="bttn btn"><button>Sign in</button></div>
                     </form>
                 </div>
@@ -92,6 +91,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
